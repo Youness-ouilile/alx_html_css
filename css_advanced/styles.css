@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-image: url(Object.png);
+    background-repeat: repeat-x;
+    
+    background-position: center;
+    color: white;
+    height: 120vh;
+    position: relative;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    color: #ffffff;
+    width: 30px;
+    transform: translateX(150px);
+}
+
+nav p{
+    font-family: "Comic Sans MS", cursive;
+    transform: translateX(-348px);
+
+}
+
+
+.list {
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    transform: translateX(-100px)
+}
+
+.list li {
+    
+    display: inline-block;
+}
+
+.list a {
+    font-size: 15px;
+    
+    color: white;
+    text-decoration: none;
+    font-weight:500;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.list a:hover,.list a.active {
+    color:#000000;
+}
+.get {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    text-align: center;
+}
+
+.get h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.smile span {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #a250e0;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transform: translateY(30px);
+}
+
+section {
+    padding: 0px 0;
+    transform: translateY(400px);
+    text-align: center;
+}
+section h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+section h2 b {
+    color:#a250e0;
+    font-size: 30px;
+}
+.learn {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.learn div {
+    text-align: center;
+    color: #ffffff;
+}
+
+.learn img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.learn h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.learn p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.name {
+    background-color: #a250e0;
+    transform: translateY(0px);
+}
+.those{
+    transform: translate(-400px,25px);
+    width: 100px;
+    height: 100px;
+
+}
+.youness blockquote{
+    font-size: 15px;
+    
+    transform: translate(80px,-80px);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight:500;
+    margin: 20px;
+}
+.youness h3{
+    font-size: 20px;
+    
+    transform: translate(-230px,-60px);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight:500;
+    margin: 20px;
+    
+}
+.youness p{
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    transform: translate(-220px,-70px);
+    color: rgb(255, 255, 255);
+    
+    font-weight:500;
+    margin: 20px;
+    
+}
+.most {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.most h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.most b {
+    color: #6c63ff;
+}
+
+.most div {
+    display: inline-block;
+    width: 16%;
+    background-color: #fff;
+    padding: 1px;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    text-align: left;
+}
+
+.most img.dolor {
+    width: 80%;
+    border-radius: 1px;
+    margin-bottom: 15px;
+}
+
+.most h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.most p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.most .phillips {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.most h4 {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+}
+
+.start {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.start div {
+    display: inline-block;
+    color: #f39c12;
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+
+.most div:last-child {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+
+@media (max-width: 768px) {
+    .name {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .most div {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .most div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.ouilile {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.ouilile h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.ouilile .not, .ouilile .way, .ouilile .hhhh, .ouilile .sssss {
+    display: inline-block;
+    width: 200px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.ouilile img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.ouilile h3 {
+    font-size: 24px;
+    color: #444;
+}
+
+.ouilile p {
+    font-size: 14px;
+    color: #666;
+}
+
+.ouilile button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 40px;
+    background-color:#a250e0;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ouilile button:hover {
+    background-color:#a250e0;
+}
+
+
+.fatima {
+    background-color: #a250e0;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.fatima h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.woooo, .waaaa, .mmmmm, .moooo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 15px 0;
+}
+
+.wiiii, .wuuuw, .maaaa, .miiiii {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    background-color:#a250e0;
+    color:#a250e0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+footer section div img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+footer section div i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #000000;
+    transition: color 0.3s;
+    transform: translate(-50%,0%);
+}
+
+footer section div i:hover {
+    color: #6c63ff;
+}
+
+footer p {
+    font-size: 14px;
+    color: #050505;
+}
+
+
+@media (max-width: 768px) {
+    section div {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    footer section div {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    section div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section button {
+        width: 100%;
+    }
+}
